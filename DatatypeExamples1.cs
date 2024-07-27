@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MayankFirstConsoleApp1
+namespace MayankFirst
 {
     class DatatypeExamples1
     {
@@ -66,6 +66,5 @@ namespace MayankFirstConsoleApp1
 
 
         }
-
     }
 }

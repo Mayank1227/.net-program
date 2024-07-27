@@ -6,24 +6,22 @@ using System.Threading.Tasks;
 
 namespace MayankFirst
 {
-    class AdditionInputProgram
+    class Subtraction
     {
         static void Main(string[] args)
         {
             int x, y, z;
 
             Console.WriteLine("Enter the value of x and y:");
-            x = Convert.ToInt32(Console.ReadLine()); //method is used to get the input from console window
+            x = Convert.ToInt32(Console.ReadLine());
 
             y = Convert.ToInt32(Console.ReadLine());
 
-            z = x + y;
+            z = x - y;
 
-            Console.WriteLine("Display addition of x and y:" + z);
+            Console.WriteLine("Display subtraction of x and y:" + z);
 
             Console.ReadKey();
-
-
         }
     }
 }
