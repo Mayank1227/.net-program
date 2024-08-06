@@ -16,7 +16,7 @@ namespace ClassAndObjectExamplesConsoleApp1
     }
 
 
-    class ProtectedTestExample1:ProtectedTest
+    class ProtectedTestExample1 : ProtectedTest
     {
         static void Main(string[] args)
         {

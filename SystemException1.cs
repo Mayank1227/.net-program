@@ -6,30 +6,24 @@ using System.Threading.Tasks;
 
 namespace CollectionFrameworkConsole2
 {
-    class Program
+    class SystemException1
     {
         static void Main(string[] args)
         {
-
             try
             {
-                int a = 10;
-                int b = 0;
-                int x = a / b;
-
+                int[] arr = new int[5];
+                arr[10] = 25;
             }
-            catch(Exception ex)
+            catch (SystemException e)
             {
-                Console.WriteLine(ex);
+                Console.WriteLine(e);
             }
-
-           
-            Console.WriteLine("Rest of the code");
 
             Console.ReadKey();
 
 
+        }
 
         }
-    }
 }

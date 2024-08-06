@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CollectionFrameworkConsole2
 {
-    class Program
+    class finallyException
     {
         static void Main(string[] args)
         {
@@ -18,12 +18,15 @@ namespace CollectionFrameworkConsole2
                 int x = a / b;
 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex);
             }
 
-           
+            finally {
+                Console.WriteLine("Finally block will be executed");
+                    
+                    }
             Console.WriteLine("Rest of the code");
 
             Console.ReadKey();
@@ -31,5 +34,8 @@ namespace CollectionFrameworkConsole2
 
 
         }
+
+
+
     }
 }

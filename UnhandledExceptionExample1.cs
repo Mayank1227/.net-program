@@ -6,29 +6,21 @@ using System.Threading.Tasks;
 
 namespace CollectionFrameworkConsole2
 {
-    class Program
+    class UnhandledExceptionExample1
     {
         static void Main(string[] args)
         {
-
             try
             {
                 int a = 10;
                 int b = 0;
                 int x = a / b;
-
             }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex);
-            }
-
-           
+            catch (NullReferenceException e) { Console.WriteLine(e); }
+            finally { Console.WriteLine("Finally block is executed"); }
             Console.WriteLine("Rest of the code");
 
             Console.ReadKey();
-
-
 
         }
     }
